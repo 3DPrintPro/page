@@ -1,0 +1,106 @@
+/* styles.css */
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0; padding: 0;
+  background: #fafafa;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #012a4a;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0; padding: 0;
+}
+
+nav ul li {
+  margin-left: 1.5rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #012a4a;
+  margin-top: 0;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+form label {
+  font-weight: 600;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin: 0.4rem 0 1rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form button {
+  background: #012a4a;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #02457a;
+}
+
+footer {
+  background: #012a4a;
+  color: white;
+  text-align: center;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
